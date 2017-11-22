@@ -6,7 +6,7 @@ This is a "blockchat" service based on Hyperledger Fabric 1.0. The service illus
 
 ## Note
 
-This is a filtered snapshot of our internal repo. If you've not seen the link during a presentation, the project might seem to contain a bit of slack here and there -- this is mostly because it's a filtered version with lots of extra components removed. We've done a quick cleanup, but might've missed a few parts.
+This is a filtered snapshot of our internal repo. We've done a quick cleanup, but might've missed a few parts.
 
 The current version is mainly to be used on Ubuntu 16.04. Ubuntu 17.10 is tested, and is a viable option with a few modifications to the setup script.
 
