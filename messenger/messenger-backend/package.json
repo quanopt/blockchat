@@ -1,0 +1,19 @@
+{
+  "name": "blockchat",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric Car Sample Application",
+  "main": "fabcar.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.3",
+    "fabric-ca-client": ">=1.0.0-rc1 <1.0.0-rc1.10",
+    "fabric-client": ">=1.0.0-rc1 <1.0.0-rc1.10",
+    "fs-extra": "^4.0.1"
+  }
+}

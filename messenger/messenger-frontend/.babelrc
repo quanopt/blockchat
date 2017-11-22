@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+    ],
+    "presets": [
+        "react",
+        ["env", {
+            "targets": {
+                "browsers": "last 20 versions"
+            },
+            "loose": true,
+            "modules": false
+        }]
+    ]
+}

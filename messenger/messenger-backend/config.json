@@ -1,0 +1,35 @@
+{
+  "host": "localhost",
+  "port": "4000",
+  "jwt_expiretime": "36000",
+  "channelName": "mychannel",
+  "channelCreateTx": "network/mychannel.tx",
+  "chaincodeName": "mycc",
+  "chaincodePath": "github.com/messenger",
+  "orgs": {
+    "names": [
+      "org1",
+      "org2"
+    ],
+    "peers": [
+      [
+        "localhost:7051",
+        "localhost:7056"
+      ],
+      [
+        "localhost:8051",
+        "localhost:8056"
+      ]
+    ]
+  },
+  "GOPATH": "../network",
+  "keyValueStore": "/tmp/fabric-client-kvs",
+  "eventWaitTime": "30000",
+  "orderer": "grpcs://localhost:7050",
+  "users": [
+    {
+      "username": "admin",
+      "secret": "adminpw"
+    }
+  ]
+}
