@@ -1,5 +1,9 @@
 # Hyperledger samples
 
+## Overview
+
+This is a "blockchat" service based on Hyperledger Fabric 1.0. The service illustrates how to use blockchain as a reliable, non-repudiable distributed "log" service for critical communication. The demo is created by experts of [Quanopt Ltd.](http://quanopt.com/)
+
 ## Note
 
 This is a filtered snapshot of our internal repo. If you've not seen the link during a presentation, the project might seem to contain a bit of slack here and there -- this is mostly because it's a filtered version with lots of extra components removed. We've done a quick cleanup, but might've missed a few parts.
